@@ -36,11 +36,14 @@ By default R4Intellij supports these file extensions: .R IntelliJ offers the pos
 
 The following features are supported 
 
-*   Go To --&gt; Declaration (of symbols and locally defined functions)*   View --&gt; Quick Definition Lookup (of functions): This will show the signature and a short description
+*   Go To --&gt; Declaration (of symbols and locally defined functions)
+*   View --&gt; Quick Definition Lookup (of functions): This will show the signature and a short description
 
 ![](/docs/r_help_integration.png) 
 
-*   Search --&gt; Highlight Usage: This will make Intellij to highlight all locations where a function or a symbol is&nbsp;being used*   Brace matching: If you position the caret before or after a bracket then IntelliJ will highlight the other element of&nbsp;the pair of brackets.*   File Structure View: In the structure view IntelliJ shows the functions and code sections of the R script.
+*   Search --&gt; Highlight Usage: This will make Intellij to highlight all locations where a function or a symbol is&nbsp;being used
+*   Brace matching: If you position the caret before or after a bracket then IntelliJ will highlight the other element of&nbsp;the pair of brackets.
+*   File Structure View: In the structure view IntelliJ shows the functions and code sections of the R script.
 
 Most of these functions use the default shortcuts of the Intellij platform. Custom shortcuts can be inferred from the&nbsp;menu entries. 
 
@@ -60,7 +63,10 @@ To build the index of all packages installed in your R instance, R4Intellij need
 
 The following completion modes are available: 
 
-*   Basic word completion for variables and local functions*   Coming soon: Package name completion in library statements*   Coming soon: setwd() aware path completion*   Coming soon: completion of package names in library statements
+*   Basic word completion for variables and local functions
+*   Coming soon: Package name completion in library statements
+*   Coming soon: setwd() aware path completion
+*   Coming soon: completion of package names in library statements
 
 Refactoring
 ----
